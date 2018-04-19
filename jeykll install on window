@@ -1,0 +1,43 @@
+
+
+2018-04-19
+
+******
+Be careful! If the first part of the repository doesn't exactly match your username, it won't work, so make sure to get it right
+*******
+
+
+1. Install ruby (with DEVKIT)
+
+2. Make Git Repositoy management blog page on Github
+  > The repository must be named [Githubusername].github.io, so that you can access it directly from the web browser.
+
+3. Install jekyll (On Ruby Command Prompt)
+  $ gem install jekyll
+ 
+  (Packages with dependencies)
+  $ gem install bundler
+  $ gem install minima
+  $ gem install jekyll-feed
+  $ gem install tzinfo-data
+  
+4. Make jekyll new folder
+  $ jekyll new [Githubusername].github.io
+
+5. Connect localhost
+   $ cd ./[Githubusername].github.io
+   $ bundle exec jekyll serve
+   Then, you can connect to http://localhost:4000 on browser
+   
+6. Connect with Github pages
+   $ git init
+   $ git add -A && git commit -m "Initial commit"
+   $ git remote add orgin [git url]
+   
+7. Github push
+   $ git add . -A
+   $ git commit -m [commit contents]
+   $ git push -u origin master
+   
+   
+ 
