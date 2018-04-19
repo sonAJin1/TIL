@@ -9,7 +9,7 @@ Be careful! If the first part of the repository doesn't exactly match your usern
 
 1. Install ruby (with DEVKIT)
 
-2. Make Git Repositoy management blog page on Github
+2. Make Git Repository management blog page on Github
   > The repository must be named [Githubusername].github.io, so that you can access it directly from the web browser.
 
 3. Install jekyll (On Ruby Command Prompt)
