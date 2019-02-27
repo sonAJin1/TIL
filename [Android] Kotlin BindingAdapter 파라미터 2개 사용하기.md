@@ -1,7 +1,4 @@
----
 
-
----
 
 <h1 id="bindingadapter-파라미터-2개일-때">BindingAdapter 파라미터 2개일 때</h1>
 <p>BindingAdapter를 사용할 때 파라미터를 2개 이상 사용하고 싶은 경우가 있습니다.</p>
