@@ -1,7 +1,5 @@
----
 
 
----
 
 <h1 id="android-databinding-refactoring-후-변경된-폴더-파일-경로를-인식하지-못하는-경우">Android DataBinding refactoring 후 변경된 폴더, 파일 경로를 인식하지 못하는 경우</h1>
 <p>Android Studio에서 DataBinding을 사용하면서 파일과 폴더의 위치를 바꿨는데 Android Studio가 이를 인식하지 못하고 계속 전에 있던 경로로 나타나는 경우가 있었다.</p>
