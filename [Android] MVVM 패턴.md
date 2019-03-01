@@ -1,7 +1,5 @@
----
 
 
----
 
 <h1 id="mvvm에서의-view와-viewmodel">MVVM에서의 View와 ViewModel</h1>
 <ul>
