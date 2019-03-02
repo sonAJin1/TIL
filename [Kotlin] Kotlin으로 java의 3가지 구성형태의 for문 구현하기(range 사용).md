@@ -1,10 +1,10 @@
 
 Kotlin의 기본 for문 형식
 =
-kotlin에서의 for문은 java와는 다르게 초기식; 조건식; 증감식; 의 구성형태를 지원하지 않고
+Kotlin에서의 for문은 java와는 다르게 초기식; 조건식; 증감식; 의 구성형태를 지원하지 않고
 java의 each-for문의 형태를 가집니다
 
-  kotlin에서 for문의 형식은
+  Kotlin에서 for문의 형식은
 ```
 for (반복 대상 요소 저장변수 in 반복 대상)  
 ```
@@ -15,6 +15,8 @@ for (반복 대상 요소 저장변수 in 반복 대상)
 - 저장소 타입은 배열 또는 컬랙션에 저장된 원소의 타입과 동일하게 설정됩니다
 
  
+ Kotlin으로 3가지 구성형태의 for문
+ =
 > java의 기존의 (int i=0; i<10; i++) 형태를 띄는 for문은 
 **while문으로 대체하거나 range를 사용하여 구현할 수 있습니다**
 
@@ -80,5 +82,5 @@ last 함수를 사용하여 마지막 i 값을 확인할 수 있습니다.
 
 https://codedragon.tistory.com/4425
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2OTQyMzM1NCwxODI5MzY1OTc5XX0=
+eyJoaXN0b3J5IjpbMTcwNTUwNTA2LDE4MjkzNjU5NzldfQ==
 -->
