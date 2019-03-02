@@ -10,9 +10,12 @@ for (반복 대상 요소 저장변수 in 반복 대상)
 ```
 으로 이루어져 있습니다
 
+
 - in 왼쪽에는 오른쪽의 배열요소의 값이 반복 저장될 변수(item)이 오고, 오른쪽에는 반복대상(배열, 컬랙션)이 위치합니다
 
 - 저장소 타입은 배열 또는 컬랙션에 저장된 원소의 타입과 동일하게 설정됩니다
+
+
 
  
  Kotlin으로 3가지 구성형태의 for문
@@ -82,5 +85,6 @@ last 함수를 사용하여 마지막 i 값을 확인할 수 있습니다.
 
 https://codedragon.tistory.com/4425
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNTUwNTA2LDE4MjkzNjU5NzldfQ==
+eyJoaXN0b3J5IjpbLTU5OTM2NTI0LDE3MDU1MDUwNiwxODI5Mz
+Y1OTc5XX0=
 -->
