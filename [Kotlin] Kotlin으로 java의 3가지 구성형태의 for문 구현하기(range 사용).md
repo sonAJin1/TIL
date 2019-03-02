@@ -1,16 +1,14 @@
 
-kotlin에서의 for문은 java와는 다르게 초기식; 조건식; 증감식; 의 구성형태를 지원하지 않고 
+Kotlin의 기본 for문 형식
+=
+kotlin에서의 for문은 java와는 다르게 초기식; 조건식; 증감식; 의 구성형태를 지원하지 않고
 java의 each-for문의 형태를 가집니다
 
   kotlin에서 for문의 형식은
-
 ```
 for (반복 대상 요소 저장변수 in 반복 대상)  
 ```
-
 으로 이루어져 있습니다
-
-  
 
 - in 왼쪽에는 오른쪽의 배열요소의 값이 반복 저장될 변수(item)이 오고, 오른쪽에는 반복대상(배열, 컬랙션)이 위치합니다
 
@@ -82,5 +80,5 @@ last 함수를 사용하여 마지막 i 값을 확인할 수 있습니다.
 
 https://codedragon.tistory.com/4425
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyOTM2NTk3OV19
+eyJoaXN0b3J5IjpbMTE2OTQyMzM1NCwxODI5MzY1OTc5XX0=
 -->
