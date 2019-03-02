@@ -37,11 +37,10 @@ Range는 ".." operator 를 갖는 rangeTo 함수로 표현합니다.
 
   
 
-그렇다면 i값을 점점 작아지게 하고 싶으면 어떻게 하면 될?
-
+그렇다면 i값을 점점 작아지게 하고 싶으면 
 java에서 for (int i = 4 ; i > 0 ; i --) 와 같이 사용되는 반복문을
 
-Kotlin에서는 downTo() 함수를 통해 아래와 같이 표현할 수 있습니다.
+>Kotlin에서는 downTo() 함수를 통해 아래와 같이 표현할 수 있습니다.
 
 ```
 for (i in 10 downTo 1)  // prints "10부터 1"
@@ -85,5 +84,5 @@ last 함수를 사용하여 마지막 i 값을 확인할 수 있습니다.
 
 https://codedragon.tistory.com/4425
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzMwMDU0XX0=
+eyJoaXN0b3J5IjpbODQ3ODk2Mjk0XX0=
 -->
