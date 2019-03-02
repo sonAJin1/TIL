@@ -35,12 +35,7 @@ Range는 ".." operator 를 갖는 rangeTo 함수로 표현합니다.
  for (i in 10..1) // prints nothing
 ```
 
-  
-
-그렇다면 i값을 점점 작아지게 하고 싶으면 
-java에서 for (int i = 4 ; i > 0 ; i --) 와 같이 사용되는 반복문을
-
-Kotlin에서는 downTo() 함수를 통해 아래와 같이 표현할 수 있습니다.
+java에서 for (int i = 4 ; i > 0 ; i --) 와 같이 사용되는 반복문을Kotlin에서는 downTo() 함수를 통해 아래와 같이 표현할 수 있습니다.
 
 ```
 for (i in 10 downTo 1)  // prints "10부터 1"
@@ -48,7 +43,7 @@ for (i in 10 downTo 1)  // prints "10부터 1"
 
 또한 step을 사용하여 일정한 간격으로 i를 증가시킬 수도 있고,
 
-downTo와 step을 함께 사용하여 역순으로 일정간격으로 i를 감소시킬 수도 있습니다.
+DownTo와 step을 함께 사용하여 역순으로 일정간격으로 i를 감소시킬 수도 있습니다.
 
 ```
 for (i in 1..4 step 2) print(i) // prints "1,3"
@@ -84,6 +79,6 @@ last 함수를 사용하여 마지막 i 값을 확인할 수 있습니다.
 
 https://codedragon.tistory.com/4425
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5ODU4MzkyNiwxNzA1NTA1MDYsMTgyOT
+eyJoaXN0b3J5IjpbLTY5OTAzNzQzMywxNzA1NTA1MDYsMTgyOT
 M2NTk3OV19
 -->
