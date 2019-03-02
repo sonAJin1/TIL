@@ -43,12 +43,12 @@ for (i in 10 downTo 1)  // prints "10부터 1"
 
 또한 step을 사용하여 일정한 간격으로 i를 증가시킬 수도 있고,
 
-DownTo와 step을 함께 사용하여 역순으로 일정간격으로 i를 감소시킬 수도 있습니다.
+downTo와 step을 함께 사용하여 역순으로 일정간격으로 i를 감소시킬 수도 있습니다.
 
 ```
 for (i in 1..4 step 2) print(i) // prints "1,3"
 
-for (i in 4 downTo 1 step 2) print(i) // prints "4,2"
+for (i in 4 downTo 1 step 2) print(i) // prints "4,2
 ```
 
 until 함수를 사용하여 범위를 결정할 수도 있습니다.
@@ -79,6 +79,6 @@ last 함수를 사용하여 마지막 i 값을 확인할 수 있습니다.
 
 https://codedragon.tistory.com/4425
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5OTAzNzQzMywxNzA1NTA1MDYsMTgyOT
+eyJoaXN0b3J5IjpbLTM0NDc4MTA3NSwxNzA1NTA1MDYsMTgyOT
 M2NTk3OV19
 -->
