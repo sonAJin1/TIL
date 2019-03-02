@@ -20,8 +20,7 @@ for (반복 대상 요소 저장변수 in 반복 대상)
  
  Kotlin으로 3가지 구성형태의 for문
  =
-> java의 기존의 (int i=0; i<10; i++) 형태를 띄는 for문은 
-**while문으로 대체하거나 range를 사용하여 구현할 수 있습니다**
+ java의 기존의 (int i=0; i<10; i++) 형태를 띄는 for문은 **while문으로 대체하거나 range를 사용하여 구현할 수 있습니다**
 
   
 
@@ -85,6 +84,6 @@ last 함수를 사용하여 마지막 i 값을 확인할 수 있습니다.
 
 https://codedragon.tistory.com/4425
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5OTM2NTI0LDE3MDU1MDUwNiwxODI5Mz
-Y1OTc5XX0=
+eyJoaXN0b3J5IjpbLTI5ODU4MzkyNiwxNzA1NTA1MDYsMTgyOT
+M2NTk3OV19
 -->
