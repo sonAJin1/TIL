@@ -1,5 +1,6 @@
 
-kotlin에서의 for문은 java와는 다르게 초기식; 조건식; 증감식; 의 구성형태를 지원하지 않고 java의 each-for문의 형태를 가집니다
+kotlin에서의 for문은 java와는 다르게 초기식; 조건식; 증감식; 의 구성형태를 지원하지 않고 
+java의 each-for문의 형태를 가집니다
 
   
 
@@ -85,5 +86,5 @@ last 함수를 사용하여 마지막 i 값을 확인할 수 있습니다.
 
 https://codedragon.tistory.com/4425
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NDQ3NjUzOF19
+eyJoaXN0b3J5IjpbLTE4NTkxNjYyMzJdfQ==
 -->
