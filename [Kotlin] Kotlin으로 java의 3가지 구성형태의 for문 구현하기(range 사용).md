@@ -27,7 +27,6 @@ for (반복 대상 요소 저장변수 in 반복 대상)
 Range는 ".." operator 를 갖는 rangeTo 함수로 표현합니다.
 
 아래의 예시는 JAVA 언어의 if (int i=1; i<30; i++) 조건문과 같은 의미를 가집니다.
-
 단 점점 커지는 수가 아니라 작아지는 수라면 아무것도 수행하지 않게 됩니다.
 
 ```
@@ -41,9 +40,7 @@ java에서 for (int i = 4 ; i > 0 ; i --) 와 같이 사용되는 반복문을Ko
 for (i in 10 downTo 1)  // prints "10부터 1"
 ```
 
-또한 step을 사용하여 일정한 간격으로 i를 증가시킬 수도 있고,
-
-downTo와 step을 함께 사용하여 역순으로 일정간격으로 i를 감소시킬 수도 있습니다.
+또한 step을 사용하여 일정한 간격으로 i를 증가시킬 수도 있고, downTo와 step을 함께 사용하여 역순으로 일정간격으로 i를 감소시킬 수도 있습니다.
 
 ```
 for (i in 1..4 step 2) print(i) // prints "1,3"
@@ -52,11 +49,8 @@ for (i in 4 downTo 1 step 2) print(i) // prints "4,2
 ```
 
 until 함수를 사용하여 범위를 결정할 수도 있습니다.
-
-(아래의 식에서 i는 1에서 9까지만 수행합니다. 10은 포함되지 않습니다.)
-
 ```
-for (i in 1 until 10) { // i in [1, 10), 10 is excluded
+for (i in 1 until 10) { // i는 1에서 9까지만 수행합니다. 10은 포함되지 않습니다.
      println(i)
 }
 ```
@@ -79,6 +73,6 @@ last 함수를 사용하여 마지막 i 값을 확인할 수 있습니다.
 
 https://codedragon.tistory.com/4425
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NDc4MTA3NSwxNzA1NTA1MDYsMTgyOT
-M2NTk3OV19
+eyJoaXN0b3J5IjpbODkxNTM4NzM0LDE3MDU1MDUwNiwxODI5Mz
+Y1OTc5XX0=
 -->
