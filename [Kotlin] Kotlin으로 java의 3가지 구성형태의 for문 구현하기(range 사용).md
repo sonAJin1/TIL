@@ -17,7 +17,7 @@ for (반복 대상 요소 저장변수 in 반복 대상)
 
 - 저장소 타입은 배열 또는 컬랙션에 저장된 원소의 타입과 동일하게 설정됩니다
 
-  
+ 
 그렇다면 java의 기존의 (int i=0; i<10; i++) 형태를 띄는 for문은 어떻게 구현할 수 있을까요?
 
 **while문으로 대체하거나 range를 사용하여 구현할 수 있습니다**
@@ -85,5 +85,5 @@ last 함수를 사용하여 마지막 i 값을 확인할 수 있습니다.
 
 https://codedragon.tistory.com/4425
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwOTU1MTgyMl19
+eyJoaXN0b3J5IjpbMTI1NDQ3NjUzOF19
 -->
