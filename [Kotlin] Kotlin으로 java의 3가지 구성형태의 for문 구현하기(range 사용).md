@@ -58,9 +58,9 @@ for (i in 1 until 10) { // i는 1에서 9까지만 수행합니다. 10은 포함
 last 함수를 사용하여 마지막 i 값을 확인할 수 있습니다.
 
 ```
-(1..12 step 2).last == 11  // progression with values [1, 3, 5, 7, 9, 11]
-(1..12 step 3).last == 10  // progression with values [1, 4, 7, 10]
-(1..12 step 4).last == 9   // progression with values [1, 5, 9]
+(1..12 step 2).last == 11  // [1, 3, 5, 7, 9, 11]
+(1..12 step 3).last == 10  // [1, 4, 7, 10]
+(1..12 step 4).last == 9   // [1, 5, 9]
 ```
 
   
@@ -73,6 +73,6 @@ last 함수를 사용하여 마지막 i 값을 확인할 수 있습니다.
 
 https://codedragon.tistory.com/4425
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkxNTM4NzM0LDE3MDU1MDUwNiwxODI5Mz
+eyJoaXN0b3J5IjpbNDAzMTAxNDc3LDE3MDU1MDUwNiwxODI5Mz
 Y1OTc5XX0=
 -->
