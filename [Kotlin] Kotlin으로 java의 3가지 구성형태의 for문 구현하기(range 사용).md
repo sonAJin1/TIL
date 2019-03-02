@@ -19,8 +19,7 @@ for (반복 대상 요소 저장변수 in 반복 대상)
 - 저장소 타입은 배열 또는 컬랙션에 저장된 원소의 타입과 동일하게 설정됩니다
 
  
-그렇다면 java의 기존의 (int i=0; i<10; i++) 형태를 띄는 for문은 어떻게 구현할 수 있을까요?
-
+그렇다면 java의 기존의 (int i=0; i<10; i++) 형태를 띄는 for문은 
 **while문으로 대체하거나 range를 사용하여 구현할 수 있습니다**
 
   
@@ -38,7 +37,7 @@ Range는 ".." operator 를 갖는 rangeTo 함수로 표현합니다.
 
   
 
-그렇다면 i값을 점점 작아지게 하고 싶으면 어떻게 하면 될까요?
+그렇다면 i값을 점점 작아지게 하고 싶으면 어떻게 하면 될?
 
 java에서 for (int i = 4 ; i > 0 ; i --) 와 같이 사용되는 반복문을
 
@@ -86,5 +85,5 @@ last 함수를 사용하여 마지막 i 값을 확인할 수 있습니다.
 
 https://codedragon.tistory.com/4425
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTkxNjYyMzJdfQ==
+eyJoaXN0b3J5IjpbLTE5NzMwMDU0XX0=
 -->
