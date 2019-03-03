@@ -6,7 +6,7 @@ GraphQL은 **데이터를 요청하는 방법을 설명** 하고 일반적으로
 -   여러 소스의 데이터를 더 쉽게 집계 할 수 있습니다.
 -   데이터를 기술하기 위해 타입 시스템을 사용합니다.
 
-GraphQL은 REST같은 API 디자인에 관한 새로운 관점의 스펙이었다. 어떤 언어를 사용하건 GraphQL의 구현체 — 마치 Flux에 여러가지 구현체가 존재하듯 — 를 사용하여 GraphQL 스펙에 맞는 코드를 짜야 한다. 가장 기본적으로 사용할 수 있는 구현체로는 Reference Implementation이라는 `[graphql-js](https://github.com/graphql/graphql-js)` 가 있었다. 하나의 언어(특히 자바스크립트)에 여러 가지 구현체가 존재하기도 한다. 찾아보니 꽤 많은 언어에 GraphQL 구현체가 이미 존재했다.
+GraphQL은 REST같은 API 디자인에 관한 새로운 관점의 기술이다. 어떤 언어를 사용하건 GraphQL의 구현체 — 마치 Flux에 여러가지 구현체가 존재하듯 — 를 사용하여 GraphQL 스펙에 맞는 코드를 짜야 한다. 가장 기본적으로 사용할 수 있는 구현체로는 Reference Implementation이라는 `[graphql-js](https://github.com/graphql/graphql-js)` 가 있었다. 하나의 언어(특히 자바스크립트)에 여러 가지 구현체가 존재하기도 한다. 찾아보니 꽤 많은 언어에 GraphQL 구현체가 이미 존재했다.
 
 우리 모두는 개발 첫날부터 REST API를 사용하여 작업했지만 데이터가 커지면서 데이터 쿼리가 복잡 해짐에 따라 시간과 계산 측면에서 비용이 많이 듭니다. 프레임 워크 또는 API를 쿼리하고 소비하는 데 적절한 최적화를 할 수있는 레이어가 필요했습니다. GraphQL은 다음과 같습니다 :
 
@@ -17,5 +17,6 @@ GraphQL은 데이터를 가져 오기위한 API를위한 쿼리 언어입니다.
 -   **클라이언트 주도형, 필요한 것만 얻을 수 있습니다.** 즉, 클라이언트는 서버에서 클라이언트에 더 많은 제어 권한을 제공하는 대가로 어떤 유형의 응답을 받을지 정의합니다
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NTYyMzEyMSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTU3NjE3MzA2LC01ODU2MjMxMjEsLTIwOD
+g3NDY2MTJdfQ==
 -->
