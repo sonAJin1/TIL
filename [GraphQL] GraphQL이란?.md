@@ -13,8 +13,9 @@ GraphQL은 이런 REST API의 단점을 보안하기 위하여 고안된 API 를
 **주요 이점 :**
 
 -   **클라이언트 주도형, 필요한 것만 얻을 수 있습니다.** 즉, 클라이언트는 서버에서 클라이언트에 더 많은 제어 권한을 제공하는 대가로 어떤 유형의 응답을 받을지 정의합니다
+- **여러 건의 호출을 피할 수 있습니다.** REST API의 경우 여러 end point를 유지 관리해야합니다. 예를 들어 **/ 사용자** 의 "ID" 와 **/ users / <id>** 의 사용자 세부 정보 를 얻는 하나의 엔드 포인트는 세부 정보에 대한 두 번의 호출을 요구합니다. 이제 graphQL 구현에서이 때문에 개념의 단일 쿼리로 줄일 [**인수**](http://graphql.org/learn/queries/#arguments)GraphQL에서
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNTI0MDM1MSwtNTg1NjIzMTIxLC0yMD
-g4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTE1NTI3MjI3ODUsLTU4NTYyMzEyMSwtMj
+A4ODc0NjYxMl19
 -->
