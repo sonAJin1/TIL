@@ -1,7 +1,5 @@
 
-
-
-> Written with [StackEdit](https://stackedit.io/).
+https://graphql-kr.github.io/learn/schema/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTkyNjkzNTU0M119
 -->
