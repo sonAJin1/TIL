@@ -12,12 +12,12 @@ GraphQL은 이런 REST API의 단점을 보안하기 위하여 고안된 API 를
 REST API를 사용했을 때는 피자를 주문한 다음 식료품을 주문하고 드라이 클리닝업자에게 옷을 가져다주는 것과 같습니다. 
 ![GraphQL](sonAJin1.github.io/assets/img/2019_03_04_graphql_03.png)
 반면에 GraphQL은 개인 비서가있는 것과 같습니다. 내가 원하는 것을 한번 호출 하는 것으로 해결할 수 있습니다 ( "내 드라이 클리닝, 큰 피자와 두 알의 계란을 사주세요" )
-- **모든 언어로 작성할 수 있습니다.** JavaScript와 같은 특정 프로그래밍 언어 구문에 의존 하지 않고 GraphQL자체의 간단한 "GraphQL 스키마 언어"를 사용합니다. 이것은 쿼리 언어와 유사하며, 언어에 구애받지 않는 방식으로 GraphQL 스키마에 관해 이야기 할 수 있습니다.
+- **모든 언어로 작성할 수 있습니다.** JavaScript와 같은 특정 프로그래밍 언어 구문에 의존 하지 않고 GraphQL자체의 간단한 "GraphQL 스키마 언어"를 사용합니다. 이것은 쿼리 언어와 유사하며, 언어에 구애받지 않는 방식으로 GraphQL 스키마에 관해 작업 할 수 있습니다.
 
 참고: https://medium.freecodecamp.org/so-whats-this-graphql-thing-i-keep-hearing-about-baf4d36c20cf
 https://medium.com/mindorks/what-is-graphql-and-using-it-on-android-ab8e493abdd7
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTQzOTkxNzAsLTE5MDM1MTksLTIwOT
-I3Mzc5ODAsLTE2NDMxMTI2NzEsMTU3Mzg2NzAzMSwtMzA0OTkx
-NDg0LC01ODU2MjMxMjEsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMTQzNzk1NzE1MiwtMTkwMzUxOSwtMjA5Mj
+czNzk4MCwtMTY0MzExMjY3MSwxNTczODY3MDMxLC0zMDQ5OTE0
+ODQsLTU4NTYyMzEyMSwtMjA4ODc0NjYxMl19
 -->
