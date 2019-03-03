@@ -9,12 +9,11 @@ GraphQL은 이런 REST API의 단점을 보안하기 위하여 고안된 API 를
 -   **클라이언트 주도형으로 필요한 것만 얻을 수 있습니다.** 클라이언트는 서버에서 클라이언트에 더 많은 제어 권한을 제공하는 대가로 어떤 유형의 응답을 받을지 정의합니다
 - **여러 건의 호출을 피할 수 있습니다.** REST API의 경우 여러 end point를 유지 관리해야합니다. 예를 들어 사용자 의 "ID" 와 사용자 세부 정보 를 얻는 하나의 엔드 포인트는 세부 정보에 대한 두 번의 호출을 요구합니다.  graphQL에서는 이러한 단점을 단일 쿼리로 줄여 해결할 수 있습니다.
 ![enter image description here](sonAJin1.github.io/assets/img/2019_03_04_graphql_01.png)
-- **데이터를 기술하기 위해 타입 시스템을 사용합니다.**
 
 
 참고: https://medium.freecodecamp.org/so-whats-this-graphql-thing-i-keep-hearing-about-baf4d36c20cf
 https://medium.com/mindorks/what-is-graphql-and-using-it-on-android-ab8e493abdd7
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3Mzg2NzAzMSwtMzA0OTkxNDg0LC01OD
-U2MjMxMjEsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMTk1NzM0NjQxOSwxNTczODY3MDMxLC0zMD
+Q5OTE0ODQsLTU4NTYyMzEyMSwtMjA4ODc0NjYxMl19
 -->
