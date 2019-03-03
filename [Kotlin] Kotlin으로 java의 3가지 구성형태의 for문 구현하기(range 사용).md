@@ -62,7 +62,6 @@ last 함수를 사용하여 마지막 i 값을 확인할 수 있습니다.
 (1..12 step 3).last == 10  // [1, 4, 7, 10]
 (1..12 step 4).last == 9   // [1, 5, 9]
 ```
-
   
 
   
@@ -73,6 +72,6 @@ last 함수를 사용하여 마지막 i 값을 확인할 수 있습니다.
 
 https://codedragon.tistory.com/4425
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAzMTAxNDc3LDE3MDU1MDUwNiwxODI5Mz
-Y1OTc5XX0=
+eyJoaXN0b3J5IjpbLTIxMzMyMzM4MzcsNDAzMTAxNDc3LDE3MD
+U1MDUwNiwxODI5MzY1OTc5XX0=
 -->
