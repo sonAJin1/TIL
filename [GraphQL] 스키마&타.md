@@ -7,17 +7,18 @@ GraphQL 쿼리의 형태가 결과와 거의 일치하기 때문에 서버에 �
 =
 GraphQL 스키마의 가장 기본적인 구성 요소는 객체 타입입니다. 객체 타입은 서비스에서 가져올 수 있는 객체의 종류와 필드를 나타냅니다. GraphQL 스키마 언어에서는 다음과 같이 표현할 수 있습니다.
 ~~~
-type Character{
+type Person{
 	name:String!
 	appearsIn: [Episode]!
 	}
 ~~~
-- Character는 객체 타입 입니다. 즉 필드가 있는 타입입니다. 스키마의 대부분은 객체 타입입니다.
-- name과 appearIn은 Character 타입의 필드입니다. 즉 name 과 	
+- **Person는 객체 타입 입니다.** 즉 필드가 있는 타입입니다. 스키마의 대부분은 객체 타입입니다.
+- name과 appearIn은 Character 타입의 필드입니다. 즉 name 과 appearIn은 GraphQL 쿼리의 Person 타입에서 어디든 사용할 수 있는 필드입니다
+- String 은 내장된 	
 	
 
 
 https://graphql-kr.github.io/learn/schema/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4ODA3OTYwLC05MjY5MzU1NDNdfQ==
+eyJoaXN0b3J5IjpbLTEyNTgyNDk4MDYsLTkyNjkzNTU0M119
 -->
