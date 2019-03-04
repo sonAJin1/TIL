@@ -30,12 +30,12 @@ length 필드는 하나의 인자 unit을 가집니다. 인자는 필수거나 �
 
 쿼리타입&뮤테이션타입
 =
-스키마 대부분의 타입은 일반 객체 타입이지만 스키
+스키마 대부분의 타입은 일반 객체 타입이지만 스키마 내에는 특수한 두 가지 타입이 있습니다. 
 	
 	
 
 
 https://graphql-kr.github.io/learn/schema/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzkxODQxNzYsLTkyNjkzNTU0M119
+eyJoaXN0b3J5IjpbLTMwNDg5OTMzOSwtOTI2OTM1NTQzXX0=
 -->
