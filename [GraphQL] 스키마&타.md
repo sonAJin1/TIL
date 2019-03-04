@@ -17,10 +17,20 @@ type Person{
 - **String 은 내장된 스칼라 타입 중 하나입니다.** GraphQL 객체 타입은 이름과 필드를 가지지만, 어떤 시점에서 이 필드는 구체적인 데이터로 해석되어야 하기 때문에 스칼라 타입을 사용합니다. (**GraphQL에서의 스칼라 타입 : Int, Float, String, Boolean, ID**-ID 스칼라 타입은 String과 같은 방법으로 직렬화되지만, ID로 정의하는 것은 사람이 읽을 수 있도록 하는 의도가 아니라는 것을 의미합니다) 	
 - **String! 은 필드가 non_nullable임을 의미합니다.** 즉, 이 필드를 쿼리할 때 GraphQL 서비스가 항상 값을 반환한다는 것을 의미합니다.
 - **[Episode]! 는 Episode 객체의 배열을 나타냅니다.** 또한 non-nullable이기 때문에 appearsIn 필드를 쿼리할 때 항상 0개 이상의 아이템을 가진 배열을 기대할 수 있습니다.
+
+인자
+=
+객체 타입ㅇ
+~~~
+type Starship{
+	length(unit : LengthUnit = METER) : Float
+}
+~~~
+	
 	
 
 
 https://graphql-kr.github.io/learn/schema/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTcyMDI5MjMsLTkyNjkzNTU0M119
+eyJoaXN0b3J5IjpbMjA1NjY0MTk0NCwtOTI2OTM1NTQzXX0=
 -->
