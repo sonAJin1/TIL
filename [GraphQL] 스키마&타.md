@@ -14,11 +14,11 @@ type Person{
 ~~~
 - **Person는 객체 타입 입니다.** 즉 필드가 있는 타입입니다. 스키마의 대부분은 객체 타입입니다.
 - **name과 appearIn은 Person 타입의 필드입니다.** 즉 name 과 appearIn은 GraphQL 쿼리의 Person 타입에서 어디든 사용할 수 있는 필드입니다
-- **String 은 내장된 스칼라 타입 중 하나입니다.** GraphQL 객체 타입은 이름과 필드를 가지지만, 어떤 시점에서 이 필드는 구체적인 데이터로 해석되어야 하기 때문에 스칼라 타입을 사용합니다. (Graph	
+- **String 은 내장된 스칼라 타입 중 하나입니다.** GraphQL 객체 타입은 이름과 필드를 가지지만, 어떤 시점에서 이 필드는 구체적인 데이터로 해석되어야 하기 때문에 스칼라 타입을 사용합니다. (GraphQL에서의 스칼라 타입 : Int, Float, String, Boolean, ID-ID 스칼라 타입은 String과 같은 방법으로 직렬화되지만, ) 	
 	
 
 
 https://graphql-kr.github.io/learn/schema/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwODA4ODk2MSwtOTI2OTM1NTQzXX0=
+eyJoaXN0b3J5IjpbODkwMzU2NTEzLC05MjY5MzU1NDNdfQ==
 -->
