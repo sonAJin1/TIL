@@ -66,17 +66,9 @@ mutation  CreateReviewForEpisode($ep:  Episode!, $review:  ReviewInput!)  {
 ~~~
   
 
-createReview 필드가 새롭게 생성된 리뷰의 stars 와 commentary 필드를 리턴하는 것에 주목해주세요. ** 값을 변형하고 필드의 새로운 값을 가져오는 쿼리를 하나의 요청으로 할 수 있습니다.**
+createReview 필드가 새롭게 생성된 리뷰의 stars 와 commentary 필드를 리턴하는 것에 주목해주세요. ** 값을 변형하고 필드의 새로운 값을 가져오는 쿼리를 하나의 요청으로 할 수 있습니다.** 이 예시에서, 우리가 보낸 review 변수는 스칼라 타입이 아닙니다. 이것은 input object type 으로, argument 로써 보내질 수 있는 특별한 종류의 오브젝트 타입입니다.
 
-이 예시에서, 우리가 보낸 review 변수는 스칼라 타입이 아닙니다. 이것은 input object type 으로, argument 로써 보내질 수 있는 특별한 종류의 오브젝트 타입입니다.
-
-### Multiple fields in mutations - 변형의 다양한 필드
-
-  
-
-mutation 은 query 와 같이 여러개의 필드를 포함할 수 있다. 둘 사이에는 이름을 제외하고 특징적인 차이점이 하나 있다.
-
-**query 필드는 평행적****(parallel)****으로 실행되지만, mutation 필드는 하나 하나씩 순서로 진행된다.**
+mutation 은 query 와 같이 여러개의 필드를 포함할 수 있습니다. 둘 사이에는 이름을 제외하고 특징적인 차이점이 하나 있습니다.**query 필드는 병렬ㄹ 실행되지만, mutation 필드는 하나 하나씩 순서로 진행된다.**
 
 이는 하나의 요청에 있는 두 개의 incrementCredits mutation 에서, 반드시 두 번째 mutation 이 시작하기 전에 첫 번째 mutation 이 끝나는데, 이는 이 두 조건이 경쟁하지 않게끔 한다.
 	
@@ -84,5 +76,5 @@ mutation 은 query 와 같이 여러개의 필드를 포함할 수 있다. 둘 �
 
 https://graphql-kr.github.io/learn/schema/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM1MTQxMzYxLC0zMDQ4OTkzMzldfQ==
+eyJoaXN0b3J5IjpbLTE3MjgwNTg1NjIsLTMwNDg5OTMzOV19
 -->
