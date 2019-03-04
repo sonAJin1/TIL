@@ -20,17 +20,18 @@ type Person{
 
 인자
 =
-객체 타입ㅇ
+객체 타입의 모든 필드는 0개 이상의 인수를 가질 수 있습니다.
 ~~~
 type Starship{
 	length(unit : LengthUnit = METER) : Float
 }
 ~~~
+length 필드는 하나의 인자 unit을 가집니다. 인자는 필수거나 옵셔널일 수 있습니다. 인자가 옵셔널인 경우 기본값을 정의할 수 있습니다 **unit 인작
 	
 	
 
 
 https://graphql-kr.github.io/learn/schema/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NjY0MTk0NCwtOTI2OTM1NTQzXX0=
+eyJoaXN0b3J5IjpbLTE4NjEzNjQ2ODEsLTkyNjkzNTU0M119
 -->
