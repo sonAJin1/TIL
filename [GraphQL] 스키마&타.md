@@ -5,11 +5,14 @@ GraphQL 쿼리의 형태가 결과와 거의 일치하기 때문에 서버에 �
 
 객체 타입과 필드
 =
-GraphQL 스키마의 가장 기본적인 구성 요소는 객체 타입입니다.
-
+GraphQL 스키마의 가장 기본적인 구성 요소는 객체 타입입니다. 객체 타입은 서비스에서 가져올 수 있는 객체의 종류와 필드를 나타냅니다. GraphQL 스키마 언어에서는 다음과 같이 표현할 수 있습니다.
+~~~
+type Character{
+	name:String!
+	appearsIn: [E
 
 
 https://graphql-kr.github.io/learn/schema/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODk3MTA4ODcsLTkyNjkzNTU0M119
+eyJoaXN0b3J5IjpbMTQ2ODkxNjQ3MywtOTI2OTM1NTQzXX0=
 -->
