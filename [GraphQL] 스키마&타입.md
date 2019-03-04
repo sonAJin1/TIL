@@ -30,25 +30,21 @@ length 필드는 하나의 인자 unit을 가집니다. 인자는 필수거나 �
 
 쿼리타입&뮤테이션타입
 =
-대부분의 GraphQL 에 관한 논의는 데이터 가져오기에 집중해 있지만, **서버측의 데이터를 수정하는 것 또한 데이터 플랫폼에 있어서 중요합니다.** REST 에서는 데이터를 수정할 때 GET을 사용하면  일부 요청은 서버 측에 부작용을 일으킬 수 있기때문에 관습적으로 사용하지 않습니다.  GraphQL도 비슷합니다. 기술적으로는 어떠한 쿼리도 데이터 쓰기에 영향을 줄 수 있도록 구현될 수 있습니다. 하지만, 데이터를 쓰는 것에 대한 요청은 mutation 을 통해서 보내지는 것이 관습이다.
+대부분의 GraphQL 에 관한 논의는 데이터 가져오기에 집중해 있지만, **서버측의 데이터를 수정하는 것 또한 데이터 플랫폼에 있어서 중요합니다.** REST 에서는 데이터를 수정할 때 GET을 사용하면  일부 요청은 서버 측에 부작용을 일으킬 수 있기때문에 관습적으로 사용하지 않습니다.  GraphQL도 비슷합니다. 기술적으로는 어떠한 쿼리도 데이터 쓰기에 영향을 줄 수 있도록 구현될 수 있습니다. 하지만, **데이터를 쓰는 것에 대한 요청은 mutation 을 통해서 보내지는 것이 관습입니다.**
 
-쿼리와 같이, 뮤테이션 필드가 객체타입을 반환하면 당신은 nested 필드를 요청할 수 있다. 이 것은 업데이트 이후에 해당 객체의 새로운 상태를 가져오는데 유용하다. mutation 의 간단한 예시를 봐보자.
+쿼리와 같이, 뮤테이션 필드가 객체타입을 반환하면 nested 필드를 요청할 수 있습니다. 
 
+~~~
 mutation  CreateReviewForEpisode($ep:  Episode!, $review:  ReviewInput!)  {
 
  createReview(episode:  $ep, review:  $review)  {
-
  stars
-
  commentary
-
- }
-
+		 }
 }
 
-{
 
- "ep":  "JEDI",
+{"ep":  "JEDI",
 
  "review":  {
 
@@ -59,6 +55,9 @@ mutation  CreateReviewForEpisode($ep:  Episode!, $review:  ReviewInput!)  {
  }
 
 }
+~~~
+
+~~~
 
 {
 
@@ -75,7 +74,7 @@ mutation  CreateReviewForEpisode($ep:  Episode!, $review:  ReviewInput!)  {
  }
 
 }
-
+~~~
   
 
 createReview 필드가 새롭게 생성된 리뷰의 stars 와 commentary 필드를 리턴하는 것에 주목해보자. 이것은 기존에 존재하는 데이터를 수정하는데 유용한데, 예를 들어 필드를 증가시킬 때 우리는 값을 변형하고 필드의 새로운 값을 가져오는 쿼리를 하나의 요청으로 할 수 있기 때문이다.
@@ -96,5 +95,5 @@ mutation 은 query 와 같이 여러개의 필드를 포함할 수 있다. 둘 �
 
 https://graphql-kr.github.io/learn/schema/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTYyMTAxMjQsLTMwNDg5OTMzOV19
+eyJoaXN0b3J5IjpbLTExOTY3NTA1NzAsLTMwNDg5OTMzOV19
 -->
