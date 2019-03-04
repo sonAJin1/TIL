@@ -9,10 +9,15 @@ GraphQL 스키마의 가장 기본적인 구성 요소는 객체 타입입니다
 ~~~
 type Character{
 	name:String!
-	appearsIn: [E
+	appearsIn: [Episode]!
+	}
+~~~
+- Character는 객체 타입 입니다. 즉 필드가 있는 타입입니다. 스키마의 대부분은 객체 타입입니다.
+- name과 appearIn은 Character 타입의 필드입니다. 즉 name 과 	
+	
 
 
 https://graphql-kr.github.io/learn/schema/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2ODkxNjQ3MywtOTI2OTM1NTQzXX0=
+eyJoaXN0b3J5IjpbMTQ4ODA3OTYwLC05MjY5MzU1NDNdfQ==
 -->
