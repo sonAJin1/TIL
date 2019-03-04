@@ -26,12 +26,16 @@ type Starship{
 	length(unit : LengthUnit = METER) : Float
 }
 ~~~
-length 필드는 하나의 인자 unit을 가집니다. 인자는 필수거나 옵셔널일 수 있습니다. 인자가 옵셔널인 경우 기본값을 정의할 수 있습니다 **unit 인작
+length 필드는 하나의 인자 unit을 가집니다. 인자는 필수거나 옵셔널일 수 있습니다. 인자가 옵셔널인 경우 기본값을 정의할 수 있습니다 **unit 인자가 전달되지 않으면 기본적으로 METER로 설정됩니다**
+
+쿼리타입&뮤테이션타입
+=
+스키마 대부분의 타입은 일반 객체 타입이지만 스키
 	
 	
 
 
 https://graphql-kr.github.io/learn/schema/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjEzNjQ2ODEsLTkyNjkzNTU0M119
+eyJoaXN0b3J5IjpbLTE2NzkxODQxNzYsLTkyNjkzNTU0M119
 -->
