@@ -44,40 +44,29 @@ mutation  CreateReviewForEpisode($ep:  Episode!, $review:  ReviewInput!)  {
 }
 
 
-{"ep":  "JEDI",
-
+{
+"ep":  "JEDI",
  "review":  {
-
  "stars":  5,
-
  "commentary":  "This is a great movie!"
-
- }
-
+			 }
 }
 ~~~
 
 ~~~
 
 {
-
  "data":  {
-
  "createReview":  {
-
  "stars":  5,
-
  "commentary":  "This is a great movie!"
-
- }
-
- }
-
+				 }
+		 }
 }
 ~~~
   
 
-createReview 필드가 새롭게 생성된 리뷰의 stars 와 commentary 필드를 리턴하는 것에 주목해보자. 이것은 기존에 존재하는 데이터를 수정하는데 유용한데, 예를 들어 필드를 증가시킬 때 우리는 값을 변형하고 필드의 새로운 값을 가져오는 쿼리를 하나의 요청으로 할 수 있기 때문이다.
+createReview 필드가 새롭게 생성된 리뷰의 stars 와 commentary 필드를 리턴하는 것에 주목해주세요. 이것은 기존에 존재하는 데이터를 수정하는데 유용한데, 예를 들어 필드를 증가시킬 때 우리는 값을 변형하고 필드의 새로운 값을 가져오는 쿼리를 하나의 요청으로 할 수 있기 때문입니다.
 
 이 예시에서, 알아챘는지 모르겠지만, 우리가 보낸 review 변수는 스칼라 타입이 아니다. 이것은 input object type 으로, argument 로써 보내질 수 있는 특별한 종류의 오브젝트 타입이다.
 
@@ -95,5 +84,5 @@ mutation 은 query 와 같이 여러개의 필드를 포함할 수 있다. 둘 �
 
 https://graphql-kr.github.io/learn/schema/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTY3NTA1NzAsLTMwNDg5OTMzOV19
+eyJoaXN0b3J5IjpbMTkxNzk0Nzg3OSwtMzA0ODk5MzM5XX0=
 -->
