@@ -20,10 +20,10 @@ HTTP 응답 캐시
 -   `NETWORK_FIRST`- 먼저 네트워크에서 응답을 가져옵니다. 네트워크가 실패하고 캐시 된 응답이 만료되지 않은 경우 캐시 된 데이터를 반환합니다.
 -   `CACHE_AND_NETWORK` - 캐시와 네트워크에서 응답을 가져옵니다.
 
-또한, 타임 아웃을 정의 할 수 있습니다 `expireAfter(expireTimeout, timeUnit)`.`
+또한, 타임 아웃을 정의 할 수 있습니다 `expireAfter(expireTimeout, timeUnit)`
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NDA4NTkwNV19
+eyJoaXN0b3J5IjpbLTExOTAwODM4MSwxMDg0MDg1OTA1XX0=
 -->
