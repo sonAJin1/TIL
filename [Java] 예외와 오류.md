@@ -42,6 +42,11 @@ roll-back이 되는 범위가 달라지기 때문에 개발자가 이를 인지�
 -	**예외 전환:** 명확한 의미의 예외로 전환 후 throw
 
 **예외 복구**의 핵심은 예외가 발생하여도 애플리케이션은 정상적인 흐름으로 진행된다는 것이다. **예외처리 회피** 는 신중해야하는 로직이다. 호출한 쪽에서 다시 예외를 받아 처리하도록 하거나, 예외를 던지는 것이 최선의 방법일 때만 진행한다. **예외 전환** 은 호출한 쪽에서 예외를 받아서 처리할 때 좀 더 명확하게 인지할 수 있도록 돕기 위한 방법이다. 이를 Unchecked Exception으로 전환하여 다른 계층에서 일일이 예외를 선언할 필요가 없도록 할 수 있다.
+
+---
+출처 :
+http://www.nextree.co.kr/p3239/
+https://hyeonstorage.tistory.com/199
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIzNzgxOTQzXX0=
+eyJoaXN0b3J5IjpbLTMxNzY5ODk5MF19
 -->
