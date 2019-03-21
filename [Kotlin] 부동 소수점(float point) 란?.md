@@ -21,7 +21,7 @@
 - 정수를 표현하는 비트 수와 소수를 표현하는 비트 수를 미리 정해 놓고 해당 비트 만큼만 사용해서 숫자를 표현하는 방식
 예) 실수 표현에 4byte(32bit)를 사용하고 그 중 부호 1bit (아래에서 괄호로 표시), 정수 16bit, 소수 15bit를 사용하도록 약속해 놓은 시스템이 있다고 가정을 하고 여기서 263.3을 표현하면 (0)0000000100000111.010011001100110 이렇게 표현이 됩니다.
 - 정수를 표현하는 bit를 늘리면 큰 숫자를 표현할 수 있지만 정밀한 숫자를 표현하긴 힘듭니다. 그래서 소수를 표현하는 bit를 늘릴 경우 정밀한 숫자를 표현할 수 있지만 큰 숫자를 표현하지 못합니다.
-
+- 또한 
 이러한 문제를 해결하기 위해서 **소수점을 고정하지 않는 부동 소수점(floating point)를 사용합니다.**
 
 
@@ -49,5 +49,5 @@
 출처:
 https://steemit.com/kr/@modolee/floating-point
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MjA2MzAwOSwtMTgxOTExMzUyM119
+eyJoaXN0b3J5IjpbLTk2NDU5MzYwMiwtMTgxOTExMzUyM119
 -->
