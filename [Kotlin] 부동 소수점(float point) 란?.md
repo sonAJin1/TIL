@@ -27,7 +27,7 @@
 
 부동 소수점
 =
-부동 소수점을 표현은 일반적으로 IEEE에서 표준으로 제안한 방식을 사용합니다.
+부동 소수점은 **어디서부터 소수부인지의 정보 자체를 값에 포함시킵니다.** 일반적으로 IEEE에서 표준으로 제안한 방식을 사용합니다.
 
 ![IEEE 754](https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/General_floating_point_ko.svg/500px-General_floating_point_ko.svg.png)
 
@@ -49,5 +49,5 @@
 출처:
 https://steemit.com/kr/@modolee/floating-point
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTkxMTM1MjNdfQ==
+eyJoaXN0b3J5IjpbMTk3MjA2MzAwOSwtMTgxOTExMzUyM119
 -->
