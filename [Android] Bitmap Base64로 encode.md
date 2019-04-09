@@ -35,6 +35,8 @@ private fun encodeImageFileToBase64(bitmap:Bitmap):String{
     } // onActivityResult end ------
 ~~~
 
+----
+참고: https://stackoverflow.com/questions/41801037/take-image-from-gallery-and-convert-to-base64-issue
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MzQyODYyNV19
+eyJoaXN0b3J5IjpbLTEzOTkwOTkyNzBdfQ==
 -->
