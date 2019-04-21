@@ -67,18 +67,23 @@ fragment contentData on Content {
 
 Fragment
 =
-Fragment는 재사용이 뛰어난 Query문의 파편ㅇ
+**Fragment는 재사용이 뛰어난 Query문의 파편의 역할을 한다.**
+또한 query type이 union 혹은 interface와 같이 여러 type이 있을수 있을때 Fragment의 타입 질의기능을 활용하여 특정 타입에만 적용되는 Query문을 작성할수 있다.
 
-또한 query type이 union 혹은 interface와 같이 여러 type이 있을수 있을때 Fragment의 타입 질의기능을 활용하여 특정 타입에만 적용되는 Query문을 작성할수 있습니다.
 
-----
+---
 **작업환경**
+~~~
+
 Android Studio 3.3.1
 Apollo 2.5.0 darwin-x64 node-v11.8.0
-Gradle 설치 버전 : implementation 'com.apollographql.apollo:apollo-runtime:1.0.0-alpha5'  
+
+Gradle 설치 버전 : 
+implementation 'com.apollographql.apollo:apollo-runtime:1.0.0-alpha5'  
 implementation 'com.apollographql.apollo:apollo-android-support:1.0.0-alpha5'  
 implementation 'com.apollographql.apollo:apollo-rx2-support:1.0.0-alpha5'
 
+~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTM0NTQ2MzYsMTgxNTc1MDEyMl19
+eyJoaXN0b3J5IjpbMTEzNzQ5NjUxNiwxODE1NzUwMTIyXX0=
 -->
