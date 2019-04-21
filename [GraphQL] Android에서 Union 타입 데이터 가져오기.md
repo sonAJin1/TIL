@@ -84,6 +84,9 @@ implementation 'com.apollographql.apollo:apollo-android-support:1.0.0-alpha5'
 implementation 'com.apollographql.apollo:apollo-rx2-support:1.0.0-alpha5'
 
 ~~~
+
+---
+참고: [https://vomvoru.github.io/blog/mutation-and-fragment-of-GraphQL/](https://vomvoru.github.io/blog/mutation-and-fragment-of-GraphQL/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNzQ5NjUxNiwxODE1NzUwMTIyXX0=
+eyJoaXN0b3J5IjpbLTEyNjkxNDQwNDYsMTgxNTc1MDEyMl19
 -->
