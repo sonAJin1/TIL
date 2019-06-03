@@ -37,6 +37,8 @@ class SplashActivity : AppCompatActivity() {
     }  
 }
 ~~~
+
+참고 : [https://medium.com/code-better/check-network-connectivity-on-android-in-10-lines-60d10361b73](https://medium.com/code-better/check-network-connectivity-on-android-in-10-lines-60d10361b73)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NTc0NTg4Ml19
+eyJoaXN0b3J5IjpbMTM3MTk3NjgwNV19
 -->
