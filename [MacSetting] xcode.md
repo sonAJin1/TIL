@@ -9,6 +9,11 @@
 xcode-select: error: command line tools are already installed, use "Software Update" to install updates
 ```
 
+
+### 해결책
+1.  `$ rm -rf /Library/Developer/CommandLineTools`로 오래된 tool들을 제거하고
+2.  `$ xcode-select --install` xcode를 재설치한다
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ2NjcxNzU2XX0=
+eyJoaXN0b3J5IjpbLTI2MzA5NjEzN119
 -->
